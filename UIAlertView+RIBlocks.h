@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "RIButtonItem.h"
 
-@interface UIAlertView (Blocks)
+@interface UIAlertView (RIBlocks)
 
 -(id)initWithTitle:(NSString *)inTitle message:(NSString *)inMessage cancelButtonItem:(RIButtonItem *)inCancelButtonItem otherButtonItems:(RIButtonItem *)inOtherButtonItems, ... NS_REQUIRES_NIL_TERMINATION;
 

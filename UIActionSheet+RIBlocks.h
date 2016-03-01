@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "RIButtonItem.h"
 
-@interface UIActionSheet (Blocks) <UIActionSheetDelegate>
+@interface UIActionSheet (RIBlocks) <UIActionSheetDelegate>
 
 -(id)initWithTitle:(NSString *)inTitle cancelButtonItem:(RIButtonItem *)inCancelButtonItem destructiveButtonItem:(RIButtonItem *)inDestructiveItem otherButtonItems:(RIButtonItem *)inOtherButtonItems, ... NS_REQUIRES_NIL_TERMINATION;
 

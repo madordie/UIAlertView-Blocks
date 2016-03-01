@@ -6,13 +6,13 @@
 //  Copyright 2011 Random Ideas, LLC. All rights reserved.
 //
 
-#import "UIActionSheet+Blocks.h"
+#import "UIActionSheet+RIBlocks.h"
 #import <objc/runtime.h>
 
 static NSString *RI_BUTTON_ASS_KEY = @"com.random-ideas.BUTTONS";
 static NSString *RI_DISMISSAL_ACTION_KEY = @"com.random-ideas.DISMISSAL_ACTION";
 
-@implementation UIActionSheet (Blocks)
+@implementation UIActionSheet (RIBlocks)
 
 -(id)initWithTitle:(NSString *)inTitle cancelButtonItem:(RIButtonItem *)inCancelButtonItem destructiveButtonItem:(RIButtonItem *)inDestructiveItem otherButtonItems:(RIButtonItem *)inOtherButtonItems, ...
 {
